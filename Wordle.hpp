@@ -59,7 +59,7 @@ void appendingArrays(string word, string guess, array<char, 5>& correctArray, ar
 
 }
 
-int main(){
+int wordle(){
 	//The target word helpfully called word.
 	string word = wordGenerator();
 
