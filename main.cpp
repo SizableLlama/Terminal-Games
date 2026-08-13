@@ -16,7 +16,7 @@ bool menu(bool& play) {
 		}
 
 		play = select(input, play);
-		break;
+		return play;
 	}
 	std::cout<<"\nGoodbye!\n";
 	return play = false;
