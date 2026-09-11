@@ -19,6 +19,7 @@ void game(std::string& board) {
 }
 
 int tictactoe() {
+	g = gameState::UNDETERMINED
 	int counter = 0;
 	int player;
 	std::cout<<"Player 1 or Player 2?\n: ";
